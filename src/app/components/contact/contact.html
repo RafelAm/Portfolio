@@ -1,0 +1,59 @@
+
+<div class="bg-black text-white min-h-screen flex flex-col items-center  px-4 py-10">
+    <!-- Título -->
+    <h1 class="text-[#3098a3] text-6xl text-center font-bold mb-20 mt-5 ">Proyectos</h1>
+
+  <div class="w-full flex items-center justify-center">
+<form class="p-6 rounded-lg  w-full max-w-md space-y-6 "
+    action="https://formspree.io/f/xblavnll"
+  method="POST">
+
+    <!-- Nombre -->
+    <div>
+      <label for="name" class="block mb-1 text-lg font-bold ">Nombre</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        class="w-full px-4 py-2 rounded-md  text-black border bg-white focus:outline-none focus:ring-2 focus:ring-[#3098a3]"
+        placeholder="Tu nombre"
+        required
+      />
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label for="email" class="block mb-1 text-lg font-bold">Correo electrónico</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="w-full px-4 py-2 rounded-md  text-black border bg-white  focus:outline-none focus:ring-2  focus:ring-[#3098a3]"
+        placeholder="tucorreo@ejemplo.com"
+        required
+      />
+    </div>
+
+    <!-- Mensaje -->
+    <div>
+      <label for="message" class="block mb-1 text-lg font-bold">Mensaje</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        class="w-full px-4 py-2 rounded-md  text-black border bg-white  focus:outline-none focus:ring-2  focus:ring-[#3098a3]"
+        placeholder="Escribe tu mensaje aquí..."
+        required
+      ></textarea>
+    </div>
+
+    <!-- Botón -->
+    <button
+      type="submit"
+      class="w-full bg-[#3098a3] hover:bg-[#5fbec9] text-white font-semibold text-lg py-2 px-4 rounded-md transition duration-300"
+    >
+      Enviar
+    </button>
+  </form>
+  </div>
+</div>
