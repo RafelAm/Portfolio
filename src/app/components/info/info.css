@@ -1,0 +1,17 @@
+
+@layer utilities {
+  .aparition-left {
+    animation: aparition 4s ease 0s 1 normal forwards;
+  }
+  }
+@keyframes aparition {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
