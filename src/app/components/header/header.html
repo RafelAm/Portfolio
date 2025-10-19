@@ -1,7 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
-<div class="bg-black lg:min-h-screen lg:flex lg:items-center lg:justify-center relative">
+<div class="lg:min-h-screen lg:flex lg:items-center lg:justify-center relative hero">
   <!-- Navbar -->
-<nav class="bg-black text-white px-6 py-4 flex items-center justify-center fixed top-0 left-0 w-full z-50">
+<nav class=" text-white px-6 py-4 flex items-center justify-center fixed top-0 left-0 w-full z-50">
   <!-- Menú desktop -->
   <ul class="hidden md:flex space-x-8 text-lg font-medium">
     <li><a href="#inicio" class="hover:text-[#5fbec9] transition">Inicio</a></li>
@@ -22,21 +22,15 @@
   </button>
 </nav>
 
-  <div class="relative w-[98dvw] max-w-screen lg:h-screen overflow-hidden isolate px-6 pt-14 lg:px-8 lg:min-h-full" id="inicio">
-    <div
-      aria-hidden="true"
-      class="absolute inset-0 lg:top-1/2 lg:-translate-y-1/2 -z-10 transform-gpu overflow-hidden blur-3xl"
-    >
-      <!--Burbuja-->
-      <div
-        class="w-full h-full bg-gradient-to-tr from-[#5fbec9] to-[#3098a3] sm:opacity-70 animate-lava-main-mini"
-      ></div>
-    </div>
+  <div class="relative w-full max-w-screen lg:h-screen overflow-hidden isolate px-6 pt-14 lg:px-8 lg:min-h-full" id="inicio" >
+    <!-- SVG decorativo de fondo -->
+
+
     <!--Contenedor del Contenido-->
     <div
       class="mx-auto py-32 sm:py-32 lg:py-56 2xl:max-w-6xl xl:max-w-5xl lg:max-w-4xl md:max-w-3xl sm:max-w-2xl z-0"
     >
-      <div class="text-center">
+      <div class="text-left">
         <h1
           class="text-5xl font-semibold tracking-tight text-balance text-white 2xl:text-8xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl"
         >
@@ -50,4 +44,3 @@
       </div>
     </div>
   </div>
-</div>
