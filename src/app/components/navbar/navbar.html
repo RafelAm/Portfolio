@@ -1,0 +1,38 @@
+<nav class="sticky top-0 z-50 bg-black text-white px-6 py-4 flex flex-col items-center">
+  <!-- Botón hamburguesa (solo móvil) -->
+  <button id="menu-btn" class="md:hidden focus:outline-none" aria-label="Abrir menú de navegación" title="Abrir menú">
+    <!-- Ícono hamburguesa -->
+    <svg id="menu-open-icon" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+      viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+    <!-- Ícono cerrar -->
+    <svg id="menu-close-icon" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hidden" fill="none"
+      viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+
+  <!-- Menú desktop centrado -->
+  <ul class="hidden md:flex space-x-8 text-lg font-medium mt-2">
+    <li><a href="#inicio" class="hover:text-[#5fbec9] transition">Inicio</a></li>
+    <li><a href="#sobre-mi" class="hover:text-[#5fbec9] transition">Sobre mí</a></li>
+    <li><a href="#trayectoria" class="hover:text-[#5fbec9] transition">Trayectoria</a></li>
+    <li><a href="#skills" class="hover:text-[#5fbec9] transition">Skills</a></li>
+    <li><a href="#contacto" class="hover:text-[#5fbec9] transition">Contacto</a></li>
+    <li><a href="#proyectos" class="hover:text-[#5fbec9] transition">Proyectos</a></li>
+  </ul>
+
+  <!-- Menú móvil -->
+  <ul id="mobile-menu"
+    class="hidden md:hidden w-full bg-black text-center flex-col space-y-4 py-6 text-lg font-medium mt-4">
+    <li><a href="#inicio" class="hover:text-[#5fbec9] transition">Inicio</a></li>
+    <li><a href="#sobre-mi" class="hover:text-[#5fbec9] transition">Sobre mí</a></li>
+    <li><a href="#trayectoria" class="hover:text-[#5fbec9] transition">Trayectoria</a></li>
+    <li><a href="#skills" class="hover:text-[#5fbec9] transition">Skills</a></li>
+    <li><a href="#contacto" class="hover:text-[#5fbec9] transition">Contacto</a></li>
+    <li><a href="#proyectos" class="hover:text-[#5fbec9] transition">Proyectos</a></li>
+  </ul>
+</nav>

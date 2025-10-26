@@ -1,0 +1,15 @@
+.bg {
+  position: relative;
+  perspective: 1000px;
+}
+
+.bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('/test2.svg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  z-index: -1;
+}

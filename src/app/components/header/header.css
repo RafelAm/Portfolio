@@ -9,7 +9,7 @@
   inset: 0;
   background-image: url('/test2.svg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   z-index: -1;
 }

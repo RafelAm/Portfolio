@@ -7,10 +7,15 @@ import { Footer } from './components/footer/footer'
 import { Proyectos } from './components/proyectos/proyectos'
 import { Skills } from './components/skills/skills';
 import { Contact } from './components/contact/contact'
+import { Navbar  } from './components/navbar/navbar';
+
+
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Info, Timeline, Proyectos, Footer, Skills , Contact],
+  imports: [RouterOutlet, Header, Info, Timeline, Proyectos, Footer, Skills , Contact, Navbar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
